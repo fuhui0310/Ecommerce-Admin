@@ -2,6 +2,8 @@
 
 I worked on this project based on a tutorial by Antonio Erdeljac on Full Stack E-Commerce with a Dashboard & CMS using Next.js 13 App Router, React, Tailwind, Prisma, and MySQL. The purpose of this document is to record my key learnings and experiences from this project.
 
+https://ecommerce-admin-pqnyib3mo-fuhui0310.vercel.app/
+
 ## Key Features & Learnings
 
 - **Shadcn UI for Admin**: The admin dashboard was built using Shadcn UI. This helped me understand how to integrate external UI libraries into a Next.js application.

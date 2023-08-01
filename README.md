@@ -1,34 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Full Stack E-Commerce Project with Next.js 13, React, Tailwind, Prisma, and MySQL - Learning Journal
 
-## Getting Started
+I worked on this project based on a tutorial by Antonio Erdeljac on Full Stack E-Commerce with a Dashboard & CMS using Next.js 13 App Router, React, Tailwind, Prisma, and MySQL. The purpose of this document is to record my key learnings and experiences from this project.
 
-First, run the development server:
+## Key Features & Learnings
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- **Shadcn UI for Admin**: The admin dashboard was built using Shadcn UI. This helped me understand how to integrate external UI libraries into a Next.js application.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Multi-vendor CMS and API**: I learned to create a CMS and API that could handle multiple vendors or stores. This involved creating, updating, and deleting categories, products, and filters.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Image Upload**: The application supports multiple image uploads for each product. I understood the complexities involved in handling image uploads in a web application.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Search and Pagination**: The ability to search through categories, products, sizes, colors, and billboards and the use of pagination to manage the display of search results was another key learning.
 
-## Learn More
+- **Order Creation and Stripe Checkout**: Integrating Stripe for checkout and handling order creation was a key part of this project. This helped me understand the process of integrating third-party payment gateways.
 
-To learn more about Next.js, take a look at the following resources:
+- **Authentication with Clerk**: I learned how to implement authentication in the app using Clerk.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **MySQL + Prisma + PlanetScale**: Using Prisma as an ORM for MySQL in conjunction with PlanetScale for database management was a valuable experience. I learned how to manage databases, create schemas, and handle database operations.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Installation and Setup
 
-## Deploy on Vercel
+The project can be cloned and set up locally as follows:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone the Repository**: `git clone https://github.com/AntonioErdeljac/next13-ecommerce-admin.git`
+2. **Install Packages**: `npm i`
+3. **Setup .env file**: Set up environment variables as instructed in the original README.
+4. **Connect to PlanetScale and Push Prisma**: `npx prisma generate` followed by `npx prisma db push`
+5. **Start the App**: `npm run dev`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## References
+
+- [VIDEO TUTORIAL](https://youtu.be/5miHyP6lExg)
+
+I would recommend this project for anyone looking to gain a hands-on understanding of full-stack web development using modern technologies like Next.js, React, and Prisma.```
